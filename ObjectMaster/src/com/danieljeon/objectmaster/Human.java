@@ -15,6 +15,7 @@ public class Human {
 	
 	public void attack(Human target) {
 		target.health -= this.strength;
+		System.out.println("Attacked!");
 		System.out.println("Target health now: " + target.health);
 	}
 }
